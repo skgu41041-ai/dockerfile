@@ -1,2 +1,3 @@
-FROM quay.io/coreos/flannel:v0.14.0
-MAINTAINER liaosp 1194008361@qq.com
+FROM ghcr.io/flannel-io/flannel:v0.27.2
+FROM ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
+MAINTAINER g
